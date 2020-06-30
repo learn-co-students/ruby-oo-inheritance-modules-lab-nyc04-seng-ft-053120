@@ -7,7 +7,7 @@ class Song
   attr_reader :artist
   
   
-
+@@all = []
   def initialize
     save
   end
